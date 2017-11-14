@@ -39,7 +39,7 @@
 						<h4 class="card-title">Welcome back, {{$applicant->firstname}}!</h4>
 						<p class="card-text">Please select your interview timeslot. Once you have selected a time slot, you will not be able to change it here. If none of these times work for you, please get in touch with <a href="mailto:{{ env('TEAM_EMAIL') }}">{{ env('TEAM_EMAIL') }}</a>.</p>
 						<p>
-							This interview is for us to get to know you better, and for you to ask us any questions you may have about the program. Please do not dress up, as this is a casual, group interview. Also, please come prepared with a project idea in mind.
+							This interview is for us to get to know you better, and for you to ask us any questions you may have about the program. Please do not dress up, as this is a casual interview.
 						</p>
 						<p>
 							All interviews will be held at <a href="https://goo.gl/maps/Lt3JwHK6Xw62">the Anvil.</a>
