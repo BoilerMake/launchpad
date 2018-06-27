@@ -54,7 +54,7 @@
 							<select class="form-control" id="inputSlot" name="slot">
 								<option disabled selected>Please select a slot</option>
 								@foreach($slots as $interview)
-									@if($interview->applicationsCount < 3)
+									@if($interview->applicationsCount < 1)
 									<option value="{{$interview->id}}">{{$interview->formattedDay}} from {{$interview->formattedStartTime}} to {{$interview->formattedEndTime}}</option>
 									@endif
 				    			@endforeach
